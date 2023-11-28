@@ -14,9 +14,9 @@ const AddTask = ({ addTask }) => {
     if (validateInput(value)) {
       addTask(value);
       setValue('');
-      setErrorMessage(''); // Clear any previous error message
+      setErrorMessage('');
     } else {
-      // Set the error message to be displayed in the component
+
       setErrorMessage('Please enter a valid task.');
 
       setTimeout(() => {
@@ -53,14 +53,5 @@ const AddTask = ({ addTask }) => {
 export default AddTask;
 
 
-// Parent component
-// Example array
-// Without template literals (ES5)
-
-
-
-
-
-// Output: [2, 4, 6, 8, 10]
 
 
