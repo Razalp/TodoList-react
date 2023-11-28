@@ -14,7 +14,7 @@ const Todo = () => {
       settask(newTask);
       setmsg('');
     } else {
-      setmsg('Task already exists!');
+      setmsg('Task already exists 😶‍🌫️!');
       setTimeout(() => {
         setmsg('');
       }, 2000); 

@@ -51,3 +51,16 @@ const AddTask = ({ addTask }) => {
 };
 
 export default AddTask;
+
+
+// Parent component
+// Example array
+// Without template literals (ES5)
+
+
+
+
+
+// Output: [2, 4, 6, 8, 10]
+
+
