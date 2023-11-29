@@ -10,9 +10,8 @@ import Todo from './compontes/ToDoApp/Todo'
 
 function App() {
 
-
-  return (
-    
+console.log('ananana')
+  return ( 
   <div>
     <Todo></Todo>
   </div>
