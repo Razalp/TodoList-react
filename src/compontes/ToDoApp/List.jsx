@@ -6,12 +6,12 @@ const List = ({ task, index, removeTask }) => {
   const toggleComplete = () => {
     setIsComplete(!isComplete);
   };
-
+  
   return (
     <>
       <div className={`Listtask ${isComplete ? 'completed' : ''}`}>
         <span style={{ textDecoration: isComplete ? 'line-through solid 2px' : 'none', fontWeight: isComplete ? 'bold' : 'normal' }}>
-          {task.title}
+          {task?.title}
         </span>
         
         <div className="button-container">

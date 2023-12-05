@@ -10,7 +10,7 @@ const Todo = () => {
   const addTask = (title) => {
     const taskExists = tasks.some((task) => task.title === title);
     if (!taskExists) {
-      const newTask = [...tasks, { title }];
+      const newTask = [{ title },...tasks];
       settask(newTask);
       setmsg('');
     } else {
